@@ -21,6 +21,6 @@ try:
     new_list.append(hostname)
     hosts[env] = new_list
 
-  print json.dumps(hosts, indent=2)
+  print (json.dumps(hosts, indent=2))
 except:
-  print "{}"
+  print ("{}")
